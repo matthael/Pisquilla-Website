@@ -1,12 +1,19 @@
-.app__navbar {
-    width: 100%;
-    display: flex;
-    border: 1px solid;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-black);
+#app__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-black);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
 
-    padding: 1rem 2rem;
+#app__navbar.scroll {
+  padding: 0px 0;
+  background-color: #121212;
 }
 
 .app__navbar-logo {
@@ -22,6 +29,7 @@
 .app__navbar-logo-name {
     font-family: var(--font-base);
     color: var(--color-white);
+    text-transform: uppercase;
     font-size: 2rem;
     margin: 0 2rem;
 }
@@ -149,7 +157,12 @@
     .app__navbar-smallscreen {
         display: flex;
     }
+
+    .app__navbar-logo-name {
+      margin: 0 -1em 0 0;
   }
+
+}
 
   @media screen and (max-width: 650px) {
     .app__navbar {
@@ -159,6 +172,15 @@
     .app__navbar-social-links {
         display: none;
     }
+
+    .app__navbar-logo-name {
+      margin: 0 1em;
+  }
+
+  #app__navbar.scroll {
+    padding: .5em 0;
+    background-color: #121212;
+  }
 
     /* .app__navbar-logo img {
         width: 110px;

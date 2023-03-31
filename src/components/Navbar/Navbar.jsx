@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import  { SiIfood } from "react-icons/si"
@@ -11,9 +11,23 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-  <nav className="app__navbar"> 
+  <nav id="app__navbar" className={scroll ? "scroll" : ""}> 
     <div className="app__navbar-logo">
       <img src={""} alt="app logo" />
       <h1 className="app__navbar-logo-name"> Pisquilla</h1> 

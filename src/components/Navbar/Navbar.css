@@ -109,7 +109,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: var(--color-black);
+    background: #121212f5;
     transition: 0.5s ease;
 
     flex-direction: column;
@@ -165,8 +165,9 @@
 }
 
   @media screen and (max-width: 650px) {
-    .app__navbar {
-        padding: 1rem;
+    #app__navbar {
+       padding: 1rem;
+ 
     }
 
     .app__navbar-social-links {
@@ -174,11 +175,11 @@
     }
 
     .app__navbar-logo-name {
-      margin: 0 1em;
+      margin: 0rem .1em;
   }
 
   #app__navbar.scroll {
-    padding: .5em 0;
+    padding: .5em;
     background-color: #121212;
   }
 

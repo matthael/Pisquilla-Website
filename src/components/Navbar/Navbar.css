@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.app__navbar-links li:hover {
+.app__navbar-links li a:hover {
   color: var(--color-grey);
 }
 

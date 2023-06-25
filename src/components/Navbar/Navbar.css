@@ -128,6 +128,7 @@
 
 .app__navbar-smallscreen_links {
   list-style: none;
+  padding: 0;
 }
 
 .app__navbar-smallscreen_links li {
@@ -139,7 +140,8 @@
   font-family: var(--font-base);
 }
 
-.app__navbar-smallscreen_links li:hover {
+.app__navbar-smallscreen_links li a:hover,
+.app__navbar-smallscreen_links li a:active {
   color: var(--color-white);
 }
 

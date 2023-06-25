@@ -99,7 +99,7 @@ const Navbar = () => {
                 <a href="#tesm">Avaliações</a>
               </li>
               <li className="p__opensans">
-                <a href="#Cont">Contato</a>
+                <a href="#gallery">Galeria</a>
               </li>
               <li className="p__opensans">
                 <a href="#Find"> Encontre-nós</a>

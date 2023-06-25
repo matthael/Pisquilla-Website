@@ -141,7 +141,9 @@
 }
 
 .app__navbar-smallscreen_links li a:hover,
-.app__navbar-smallscreen_links li a:active {
+.app__navbar-smallscreen_links li a:active,
+.app__navbar-logo-name:hover
+.app__navbar-logo-name:active {
   color: var(--color-white);
 }
 

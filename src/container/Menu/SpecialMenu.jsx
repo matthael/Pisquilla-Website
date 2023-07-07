@@ -7,12 +7,12 @@ import "./SpecialMenu.css";
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits you palatte" />
-      <h1 className="headtext__cormorant"> Today's Special</h1>
+      <SubHeading title="Menu que combina com seu paladar" />
+      <h1 className="headtext__cormorant"> Especial do Dia</h1>
     </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className="app__specialMenu-menu_heading"> Executive </p>
+        <p className="app__specialMenu-menu_heading"> Jantinhas e Espetos </p>
         <div className="app__specialMenu-menu_items">
           {data.wines.map((wine, index) => (
             <MenuItem
@@ -26,7 +26,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_cocktails flex__center">
-        <p className="app__specialMenu-menu_heading"> Drinks </p>
+        <p className="app__specialMenu-menu_heading"> Bebidas </p>
         <div className="app__specialMenu-menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
@@ -41,9 +41,8 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: "15px" }}>
-      <button type="button" className="custom__button">
-        {" "}
-        view more
+      <button type="button" className="custom__button" target="blank">
+        <a href="https://jantinha-do-pisquilla.ola.click/products" target="blank"> Ver Mais </a>
       </button>
     </div>
   </div>

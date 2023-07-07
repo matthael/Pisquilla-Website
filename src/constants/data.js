@@ -2,80 +2,80 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: 'R$56',
-    tags: 'AU | Bottle',
+    title: 'Jantinha completa',
+    price: 'R$18,50',
+    tags: 'Arroz, Feijão Tropeiro, Mandioca, Vinagrete e um Espetinho',
   },
   {
-    title: 'Catena Malbee',
-    price: 'R$59',
-    tags: 'AU | Bottle',
+    title: 'Jantinha simples',
+    price: 'R$ 13,00',
+    tags: 'Arroz, Feijão Tropeiro, Mandioca a e Vinagrete',
   },
   {
-    title: 'La Vieillw Rose',
-    price: 'R$44',
-    tags: 'FR | 750 ml',
+    title: 'Porções',
+    price: 'R$8,00',
+    tags: 'Arroz; Feijão Tropeiro; Mandioca; Vinagrete',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: 'R$31',
-    tags: 'CA | 750 ml',
+    title: 'Carne Bovina',
+    price: 'R$9,00',
+    tags: 'Alcatra;Contrafilé c/s gordura; Carne de Sol; Kafta c/ Queijo',
   },
   {
-    title: 'Irish Guinness',
-    price: 'R$26',
-    tags: 'IE | 750 ml',
+    title: 'Carne de Frango',
+    price: 'R$9,00',
+    tags: 'Asinha; Filé de Frango; Medalhão de Frango',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: 'R$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Refrigerante 1,5L',
+    price: 'R$9,00',
+    tags: 'Coca-Cola, Fanta, Guaraná e Sprite',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: 'R$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Refrigerante Lata",
+    price: 'R$5,00',
+    tags: 'Coca-Cola, Fanta, Guaraná e Sprite',
   },
   {
-    title: 'Daiquiri',
-    price: 'R$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Suco 1L',
+    price: 'R$8,00',
+    tags: 'Laranja, Uva, Abacaxi e Manga',
   },
   {
-    title: 'Old Fashioned',
-    price: 'R$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Cerveja 269ml',
+    price: 'R$4,50',
+    tags: 'Corona, Amstel e Heineken',
   },
   {
-    title: 'Negroni',
-    price: 'R$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Cerveja 350ml',
+    price: 'R$5,50',
+    tags: 'Corona, Amstel e Heineken',
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Alexandre Moraes',
+    subtitle: 'Levamos nossa família para desfrutar de um churrasquinho neste restaurante, saimos muito satisfeitos com churrasquinho',
   },
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'José Lucio',
+    subtitle: 'Adorei o churrasquinho deste lugar! A carne estava suculenta e saborosa, perfeitamente grelhada.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Roberto Alves',
+    subtitle: 'Sou um amante de churrasco e posso dizer que este lugar realmente sabe como preparar um bom churrasquinho.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Francisco Melo ',
+    subtitle: 'Adoro a atmosfera descontraída deste lugar! O churrasquinho é feito na hora e servido quentinho, o que é ótimo.',
   },
 ];
 

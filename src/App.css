@@ -67,6 +67,10 @@
     cursor: pointer;
 }
 
+.custom__button a {
+    color: var(--color-black);
+}
+
 .Right {
   position: relative;
   top: -2.75em;

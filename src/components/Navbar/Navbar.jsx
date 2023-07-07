@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { SiIfood } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
@@ -29,7 +29,9 @@ const Navbar = () => {
       <div className="app__navbar-logo">
         <h1 className="app__navbar-logo-name">
           {" "}
-          <a href="#home" style={{color: "#FFF"}}>Pisquilla</a>{" "}
+          <a href="#home" style={{ color: "#FFF" }}>
+            Pisquilla
+          </a>{" "}
         </h1>
       </div>
       <ul className="app__navbar-links">
@@ -55,18 +57,21 @@ const Navbar = () => {
       <div className="app__navbar-social-links">
         <ul>
           <li>
-            <a href="" target="blank">
+            <a
+              href="https://www.ifood.com.br/delivery/brasilia-df/jantinha-do-pisquilla-residencial-santos-dumont-santa-maria/a9554eef-a2bf-49aa-b2da-8184edb10dc0?utm_medium=share"
+              target="blank"
+            >
               <SiIfood />
             </a>
           </li>
           <li>
-            <a href="" target="blank">
+            <a href="https://www.instagram.com/pisquilla_janta/" target="blank">
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="" target="blank">
-              <FaFacebook />
+            <a href="https://api.whatsapp.com/send?phone=5561996346458&text=%F0%9F%91%8B%20Ol%C3%A1%2C%20venho%20de%20https%3A%2F%2Fjantinha-do-pisquilla.ola.click%2Fproducts%20%0AEu%20quero%20fazer%20o%20pr%C3%B3ximo%20pedido%3A%0A" target="blank">
+              <FaWhatsapp />
             </a>
           </li>
         </ul>

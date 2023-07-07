@@ -1,22 +1,22 @@
 .app__header {
-    background-color: var(--color-black);
+  background-color: var(--color-black);
 }
 
 .app__header-h1 {
-    font-family: var(--font-base);
-    color: var(--color-golden);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    line-height: 117px;
-    font-size: 90px;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 65px;
 }
 
 .app__header-img img {
-    width: 80%;
+  width: 80%;
 }
 
 @media screen and (max-width: 650px) {
-    .app__header {
-        margin-top: 3rem;
-    }
+  .app__header {
+    margin-top: 3rem;
+  }
 }

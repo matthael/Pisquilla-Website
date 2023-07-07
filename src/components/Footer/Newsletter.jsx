@@ -28,11 +28,11 @@ const Newsletter = ({ onValidated, status, message }) => {
     <div className="app__newsletter">
       <div className="app__newsletter-heading">
         <SubHeading title="Newsletter" />
-        <h1 className="headtext__cormorant">Subscribe to Our Newsletter</h1>
-        <p className="p__opensans">And never miss latest Updates!</p>
-        {status === "sending" && <Alert> Sending... </Alert>}
-        {status === "error" && <Alert variant="dander">{message}</Alert>}
-        {status === "success" && <Alert variant="success">{message}</Alert>}
+        <h1 className="headtext__cormorant">Inscreva-se em nossa Newsletter</h1>
+        <p className="p__opensans">E não perca nenhuma promoção ou novidade!</p>
+        {status === "sending" && <Alert> Enviando... </Alert>}
+        {status === "error" && <Alert variant="dander"> Erro, tente novamente mais tarde</Alert>}
+        {status === "success" && <Alert variant="success"> Obrigado por se inscrever!</Alert>}
       </div>
       <div className="app__newsletter-input flex__center">
         <form onSubmit={handleSubmit}>
@@ -40,9 +40,9 @@ const Newsletter = ({ onValidated, status, message }) => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email address"
+            placeholder="Digite seu email"
           />
-          <button type="submit" className="custom__button">Submit</button>
+          <button type="submit" className="custom__button"> Enviar </button>
         </form>
       </div>
     </div>

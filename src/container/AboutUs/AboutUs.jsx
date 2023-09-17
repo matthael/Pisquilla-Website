@@ -32,9 +32,7 @@ const AboutUs = () => (
       </button>
       </div>
 
-      <div className="app__aboutus-content_knife flex__center">
-        <img src={""} />
-      </div>
+      <div className="app__aboutus-content_knife flex__center"></div>
 
       <div className="app__aboutus-content__services">
         <h1 className="headtext__cormorant"> Nossos serviços</h1>

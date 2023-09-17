@@ -18,12 +18,33 @@
 }
 
 .app__specialMenu-menu_heading {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   font-family: var(--font-base);
   font-weight: 600;
   font-size: 45px;
   line-height: 58.5px;
   letter-spacing: 0.04em;
   color: var(--color-white);
+}
+
+.app__specialMenu-menu_heading-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #84bc41;
+  border-radius: 100%;
+  margin: 0 1em;
+}
+
+.app__specialMenu-menu_heading-icon svg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .2em;
 }
 
 .app__specialMenu-menu_wine,
@@ -37,6 +58,19 @@
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
+}
+
+.app__specialMenu-sustenText {
+  display: flex;
+  text-align: center;
+}
+
+.app__specialMenu-sustenText svg{
+  margin: 0 1em;
+}
+
+.app__specialMenu-sustenText p{
+  color: var(--color-grey);
 }
 
 @media screen and (max-width: 1150px) {

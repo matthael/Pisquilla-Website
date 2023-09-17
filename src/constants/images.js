@@ -20,6 +20,16 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import Table_1 from '../assets/Tables/Table-1.jpg';
+import Table_2 from '../assets/Tables/Table-2.jpg';
+import Table_3 from '../assets/Tables/Table-3.jpg';
+import Table_4 from '../assets/Tables/Table-4.jpg';
+import Table_5 from '../assets/Tables/Table-5.jpg';
+import Table_6 from '../assets/Tables/Table-6.jpg';
+import Table_7 from '../assets/Tables/Table-7.jpg';
+import Table_8 from '../assets/Tables/Table-8.jpg';
+import Table_9 from '../assets/Tables/Table-9.jpg';
+import Table_10 from '../assets/Tables/Table-10.jpg';
 
 export default {
   bg,
@@ -44,4 +54,14 @@ export default {
   sign,
   quote,
   gericht,
+  Table_1,
+  Table_2,
+  Table_3,
+  Table_4,
+  Table_5,
+  Table_6,
+  Table_7,
+  Table_8,
+  Table_9,
+  Table_10,
 };

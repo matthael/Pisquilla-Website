@@ -3,28 +3,33 @@ import images from './images';
 const wines = [
   {
     title: 'Jantinha completa',
-    price: 'R$18,50',
+    price: 'R$19,00',
     tags: 'Arroz, Feijão Tropeiro, Mandioca, Vinagrete e um Espetinho',
+    image: images.Table_6,
   },
   {
     title: 'Jantinha simples',
     price: 'R$ 13,00',
     tags: 'Arroz, Feijão Tropeiro, Mandioca a e Vinagrete',
+    image: images.Table_7,
   },
   {
-    title: 'Porções',
-    price: 'R$8,00',
-    tags: 'Arroz; Feijão Tropeiro; Mandioca; Vinagrete',
+    title: 'Carne de Porco',
+    price: 'R$9,00',
+    tags: 'Linguiça Toscana; Linguiça Apimentada; Panceta; Medalhão de Porco',
+    image: images.Table_3,
   },
   {
     title: 'Carne Bovina',
     price: 'R$9,00',
     tags: 'Alcatra;Contrafilé c/s gordura; Carne de Sol; Kafta c/ Queijo',
+    image: images.Table_1,
   },
   {
     title: 'Carne de Frango',
     price: 'R$9,00',
     tags: 'Asinha; Filé de Frango; Medalhão de Frango',
+    image: images.Table_2,
   },
 ];
 
@@ -36,7 +41,7 @@ const cocktails = [
   },
   {
     title: "Refrigerante Lata",
-    price: 'R$5,00',
+    price: 'R$5,50',
     tags: 'Coca-Cola, Fanta, Guaraná e Sprite',
   },
   {
